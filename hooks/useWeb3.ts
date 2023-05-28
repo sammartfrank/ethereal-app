@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Web3 from 'web3';
 import { Contract } from 'web3-eth-contract';
+
 import MarketplaceContract from '../build/contracts/Marketplace.json';
 
 type Product = {
@@ -112,7 +113,6 @@ export const useWeb3 = () => {
 
   const handleExtractFunds = async () => {
     try {
-      
     } catch (error) {
       console.error(error);
     }
